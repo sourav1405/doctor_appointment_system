@@ -5,11 +5,11 @@
 <body style="background-image: url(images.jpg);">
 
 <ul>
-<li class="dropdown" ><font color="white" size="7">Admin Dashboard</font></li>
+<li class="dropdown"><font color="white" size="7">Admin Dashboard</font></li>
 <br>
 <h2>
   <li class="dropdown">    
-  <a href="javascript:void(0)" class="dropbtn">Doctor</a>
+  <a href="javascript:void(0)" class="dropbtn" >Doctor</a>
     <div class="dropdown-content">
       <a href="adddoctor.php">Add Doctor</a>
       <a href="deletedoctor.php">Delete Doctor</a>
