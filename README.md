@@ -97,3 +97,5 @@ Online appointment system with the key features listed below:-
 # Rajkamal
 
 - list of files
+  admin/main.css
+  admin/alogin.php
