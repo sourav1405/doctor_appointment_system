@@ -1,93 +1,99 @@
 # AppointmentBookingSystem
+
 An Online Appointment Booking System for Retail Chain Clinics with both the User as well as the Admin Side.
 
-**Purpose**  
+**Purpose**
 
-In traditional appointment system patients has to come to the hospital and queue at the appointment window to make the appointment. But they usually end up waiting for very long periods of time. The patient can, however decide to schedule an appointment, but this option does not usually work well for all parties involved. Parties involved includes: the patient, the medical personnel and the hospital. Thus, this project focuses on making a system which helps customers to book appointments online along with other useful features. 
+In traditional appointment system patients has to come to the hospital and queue at the appointment window to make the appointment. But they usually end up waiting for very long periods of time. The patient can, however decide to schedule an appointment, but this option does not usually work well for all parties involved. Parties involved includes: the patient, the medical personnel and the hospital. Thus, this project focuses on making a system which helps customers to book appointments online along with other useful features.
 
-**Product Scope** 
+**Product Scope**
 
-Online appointment scheduling system is a system through which a user or simply, a patient can access the website of the doctor, and through the online software, the patient can easily make their appointments. Manager of the clinic can update the appointment status of the patients making it more informative. 
+Online appointment scheduling system is a system through which a user or simply, a patient can access the website of the doctor, and through the online software, the patient can easily make their appointments. Manager of the clinic can update the appointment status of the patients making it more informative.
 
-**Overall Description:** 
+**Overall Description:**
 
-**Product Perspective** 
+**Product Perspective**
 
-There is several online appointment scheduling tools in the marketplace, some of which are feature-loaded, easy to setup and cheap. For doctors, online appointment scheduling brings a lot of value add services and benefits, like engaging the patient, making the patient feel appreciated, and being able to store patients’ data securely for future reference. But the most wonderful and useful advantage is that online appointment scheduling is amazingly low cost. 
+There is several online appointment scheduling tools in the marketplace, some of which are feature-loaded, easy to setup and cheap. For doctors, online appointment scheduling brings a lot of value add services and benefits, like engaging the patient, making the patient feel appreciated, and being able to store patients’ data securely for future reference. But the most wonderful and useful advantage is that online appointment scheduling is amazingly low cost.
 
-**Product Functions** 
+**Product Functions**
 
-Online appointment system with the key features listed below:-  
- 
-**For patients:** 
+Online appointment system with the key features listed below:-
 
--Register as an patient account 
+**For patients:**
 
--Booking an appointment 
+-Register as an patient account
 
--Cancelling an appointment 
+-Booking an appointment
 
--See their booking status 
+-Cancelling an appointment
 
--See doctor availability 
+-See their booking status
 
--Search clinic and doctor 
+-See doctor availability
 
-**For Manager:** 
+-Search clinic and doctor
 
--Update status of appointments 
+**For Manager:**
 
--See appointment list 
+-Update status of appointments
 
-**For Admin:** 
+-See appointment list
 
--Add doctor/clinic/manager in database 
+**For Admin:**
 
--Delete doctor/clinic/manager from database 
+-Add doctor/clinic/manager in database
 
--Show all doctors/clinic/manager 
+-Delete doctor/clinic/manager from database
 
--Assign doctor to a clinic 
+-Show all doctors/clinic/manager
 
--Assign Manager to a clinic 
- 
-**Technologies used:** 
+-Assign doctor to a clinic
 
--HTML 5 
+-Assign Manager to a clinic
 
--CSS3 
+**Technologies used:**
 
--PHP 
+-HTML 5
 
--JavaScript 
+-CSS3
 
--AJAX 
+-PHP
 
--SQL 
+-JavaScript
 
--jQuery 
+-AJAX
 
-**Software Requirement:** 
+-SQL
 
--Php server like (XAMPP, WAMP) etc. 
+-jQuery
 
--MySQL for database 
+**Software Requirement:**
 
--Web Browser supporting HTML5 : Google Chrome(recommended) / Firefox  
+-Php server like (XAMPP, WAMP) etc.
+
+-MySQL for database
+
+-Web Browser supporting HTML5 : Google Chrome(recommended) / Firefox
 
 **Step-wise Instructions:**
 
-1. Open the wt_database.sql file given in the zip folder. 
+1. Open the wt_database.sql file given in the zip folder.
 
-2. Import it to the wamp/xampp folder  (Note: Username for phpmyadmin is ‘root’; password is ‘’) 
+2. Import it to the wamp/xampp folder (Note: Username for phpmyadmin is ‘root’; password is ‘’)
 
-3.  The opening file for the website is the cover.php file. 
+3. The opening file for the website is the cover.php file.
 
-4. Admin login and manager login can be done through the same page. Login credentials: User Username Password Admin admin admin Patient user user Manager manager manager 
+4. Admin login and manager login can be done through the same page. Login credentials: User Username Password Admin admin admin Patient user user Manager manager manager
 
-5. User sign up option is also available at the main page i.e. cover.php 
+5. User sign up option is also available at the main page i.e. cover.php
 
-6. Log out will directly redirect the user to the main page. 
+6. Log out will directly redirect the user to the main page.
 
-7. dbconfig.php contains the data for the connection of the localhost to the database of phpmyadmin. Login credentials for phpmyadmin can be restructured there as well. 
+7. dbconfig.php contains the data for the connection of the localhost to the database of phpmyadmin. Login credentials for phpmyadmin can be restructured there as well.
+
 # doctor_appointment_system
+
+# Rajkamal
+
+- list of files
