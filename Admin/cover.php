@@ -18,7 +18,7 @@
 			<div class="footer">
 				<ul style="position:absolute;top:93%;background-color:black">
 					<li><a href="alogin.php">Admin Login</a></li>
-					<li><a href="mlogin.php">Manager Login</a></li>
+					<li><a href="mlogin.php">Doctor Login</a></li>
 				</ul>
 			</div>
 <div id="id01" class="modal">
