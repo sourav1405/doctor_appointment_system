@@ -27,15 +27,13 @@ include 'dbconfig.php';
 session_start();
 if(!empty($_POST['uname']))  
 { 
-	$query = mysqli_query($conn,"SELECT * FROM manager where username = '$_POST[uname]' AND password = '$_POST[pass]'");
+	$query = mysqli_query($conn,"SELECT * FROM doctor where username = '$_POST[uname]' AND password = '$_POST[pass]'");
 	$row = mysqli_fetch_array($query);
 	if(!empty($row['username']) AND !empty($row['password'])) 
 	{ 
-		$_SESSION['username'] = $row['username'];
-		$_SESSION['mgrname']=$row['name'];
-		$_SESSION['mgrid']=$row['mid'];
+		$_SESSION['username'] = $row['password']; 
 		echo "Logging you in..";
-		header( "Refresh:3; url=mgrmenu.php");
+		header( "Refresh:3; url=mainpage.php");
 	} 
 	else 
 	{ 
