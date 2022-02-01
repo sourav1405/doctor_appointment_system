@@ -5,7 +5,7 @@
 	<form action="mlogin.php" method="post">
 	<div class="header">
 				<ul>
-					<li style="float:left;border-right:none"><strong> Manager Login</strong></li>
+					<li style="float:left;border-right:none"><strong> Doctor Login</strong></li>
 					<li><a href="cover.php">Home</a></li>
 				</ul>
 	</div>
