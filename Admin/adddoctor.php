@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" href="adminmain.css"> 
 </head>
-<body background= "doctordesk.jpg">
+<body style="background-image: url(images.jpg);" >
 <ul>
 <li class="dropdown"><font color="yellow" size="10">ADMIN MODE</font></li>
 <br>
@@ -73,7 +73,7 @@
   <br>
   
   <button type="submit" name="Submit">REGISTER</button>
-</form>
+<form>
 </font></b>
 </center>
 <?php

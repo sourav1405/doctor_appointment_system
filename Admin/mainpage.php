@@ -2,14 +2,14 @@
 <head>
 <link rel="stylesheet" href="adminmain.css"> 
 </head>
-<body>
+<body style="background-image: url(images.jpg);">
 
 <ul>
-<li class="dropdown"><font color="yellow" size="10">ADMIN MODE</font></li>
+<li class="dropdown"><font color="white" size="7">Admin Dashboard</font></li>
 <br>
 <h2>
   <li class="dropdown">    
-  <a href="javascript:void(0)" class="dropbtn">Doctor</a>
+  <a href="javascript:void(0)" class="dropbtn" >Doctor</a>
     <div class="dropdown-content">
       <a href="adddoctor.php">Add Doctor</a>
       <a href="deletedoctor.php">Delete Doctor</a>
@@ -49,7 +49,7 @@
 </h2>
 <p>
 
-<center><h1>********WELCOME ADMIN*******</h1> 
+<h1 style="position: unset;margin: 150px;">WELCOME ADMIN</h1> 
 <?php
 session_start();	
 	if(isset($_POST['logout'])){
