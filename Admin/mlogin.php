@@ -31,9 +31,11 @@ if(!empty($_POST['uname']))
 	$row = mysqli_fetch_array($query);
 	if(!empty($row['username']) AND !empty($row['password'])) 
 	{ 
-		$_SESSION['username'] = $row['password']; 
+		$_SESSION['username'] = $row['username'];
+		$_SESSION['mgrname']=$row['name'];
+		$_SESSION['mgrid']=$row['mid'];
 		echo "Logging you in..";
-		header( "Refresh:3; url=mainpage.php");
+		header( "Refresh:3; url=mgrmenu.php");
 	} 
 	else 
 	{ 
